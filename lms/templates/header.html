@@ -4,7 +4,7 @@
 from microsite_configuration import microsite
 %>
 <%
-theme_enabled = settings.FEATURES.get("USE_CUSTOM_THEME", False)
+theme_enabled = settings.FEATURES.get("USE_CUSTOM_THEME", True)
 is_microsite = microsite.is_request_in_microsite()
 %>
 
