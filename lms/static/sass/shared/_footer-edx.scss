@@ -14,7 +14,8 @@ $edx-footer-bg-color: rgb(252,252,252);
 // sites so the scope has to be aggressive to override default
 // CMS styles
 footer#footer-edx-v3 {
-  background: $edx-footer-bg-color;
+  background-image: url(../../static/images/footer.png);
+  //background: $edx-footer-bg-color;
   padding: 20px;
   border-top: 1px solid $courseware-button-border-color;
 
@@ -35,7 +36,8 @@ footer#footer-edx-v3 {
       @include font-size(14);
       @include line-height(14);
       @include margin-right(20px);
-      color: $edx-footer-link-color;
+      //color: $edx-footer-link-color;
+      color: $white;
 
       &:last-of-type {
         @include margin-right(0);
@@ -47,6 +49,15 @@ footer#footer-edx-v3 {
       }
     }
   }
+
+.copyright {
+      margin: -2px 0 8px 0;
+      font-size: em(11);
+      //color: $gray; // WCAG 2.0 AA requirements
+      color: $white;
+      @include text-align(left);
+    }
+
 
   .footer-logo,
   .site-details,
