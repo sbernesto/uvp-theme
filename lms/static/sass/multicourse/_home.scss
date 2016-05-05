@@ -16,7 +16,7 @@ $course-search-input-height: ($button-size);
   > header {
     @include linear-gradient($homepage__header--gradient__color--alpha, $homepage__header--gradient__color--bravo);
     @include clearfix();
-    background-image: url(../../static/images/fondo-ventajas2.png);
+    background-image: url(#{$static-path}/images/fondo-ventajas2.png);
     background-repeat: repeat;
     box-shadow: 0 1px 0 0 $course-header-bg, inset 0 -1px 5px 0 $shadow-l1;
     overflow: hidden;

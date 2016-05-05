@@ -14,7 +14,7 @@ $edx-footer-bg-color: rgb(252,252,252);
 // sites so the scope has to be aggressive to override default
 // CMS styles
 footer#footer-edx-v3 {
-  background-image: url(../../static/images/footer.png);
+  background-image: url(#{$static-path}/images/footer.png);
   //background: $edx-footer-bg-color;
   padding: 20px;
   border-top: 1px solid $courseware-button-border-color;
