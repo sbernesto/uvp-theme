@@ -23,9 +23,9 @@
 
       <div class="site-details">
           <nav class="site-nav" aria-label="${_("About edX")}">
-              % for link in footer["navigation_links"]:
-              <a href="${link['url']}">${link['title']}</a>
-              % endfor
+		<a href="http://www.uvp.mx">Acerca de</a>
+		<a href="/contact">Contacto</a>
+		<a href="/faq">Preguntas Frecuentes</a>
           </nav>
           <nav class="legal-notices" aria-label="${_("Legal")}">
               % for link in footer["legal_links"]:
